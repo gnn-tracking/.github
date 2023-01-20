@@ -1,6 +1,9 @@
-# Tracking with Graph Neural Networks
+<div align="center">
 
+# Tracking with Graph Neural Networks
 ![](profile/assets/banner.jpg)
+
+</div>
 
 [Charged particle tracking][tracking-wiki] is one of the cornerstones of modern HEP experiments.
 It is also a combinatorically hard problem due to the amount of hits and tracks in every collission event.

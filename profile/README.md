@@ -12,7 +12,7 @@ The code in this organization approaches the problem with graph neural networks,
 
 <details>
   <summary>Further reading (click me)</summary>
-  
+
   * [recording of overview talk with the original idea](https://www.youtube.com/watch?v=HBgpOh_mW0o)
   * [tutorial notebooks][tutorials]
   * [main code][main]
@@ -20,7 +20,7 @@ The code in this organization approaches the problem with graph neural networks,
   * [onboarding reading list](https://github.com/gnn-tracking/gnn_tracking/wiki/Onboarding-reading-list)
 
 </details>
-  
+
 [tracking-wiki]: https://en.wikipedia.org/wiki/Tracking_(particle_physics)
 [tutorials]: https://github.com/gnn-tracking/tutorials
 [main]: https://github.com/gnn-tracking/gnn_tracking

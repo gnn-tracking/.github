@@ -10,8 +10,17 @@ It is also a combinatorically hard problem due to the amount of hits and tracks 
 Recently, machine learning techniques have been proposed to speed up the traditional tracking algorithms, in particular for applications in high level triggers.
 The code in this organization approaches the problem with graph neural networks, in particular employing object condensation techniques.
 
-Further links: [tutorial notebooks][tutorials], [main code][main], [hyperparameter optimization package][hpo].
+<details>
+  <summary>Further reading (click me)</summary>
+  
+  * [recording of overview talk with the original idea](https://www.youtube.com/watch?v=HBgpOh_mW0o)
+  * [tutorial notebooks][tutorials]
+  * [main code][main]
+  * [hyperparameter optimization package][hpo]
+  * [onboarding reading list](https://github.com/gnn-tracking/gnn_tracking/wiki/Onboarding-reading-list)
 
+</details>
+  
 [tracking-wiki]: https://en.wikipedia.org/wiki/Tracking_(particle_physics)
 [tutorials]: https://github.com/gnn-tracking/tutorials
 [main]: https://github.com/gnn-tracking/gnn_tracking

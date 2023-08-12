@@ -13,7 +13,7 @@ This task is different from many other problems that involve trajectories:
 * we do not observe a continuous trajectory but instead only around five points ("hits") along the way in different detector layers.
 
 The task can be described as a combinatorically very challenging "connect-the-dots" problem, essentially turning a cloud of points (hits) in 3D space into a set of O(1000) trajectories.
-Expressed differently, each hit (containing not much more than the x/y/z coordinate) must be assigned to the particle/track it belongs to.
+Expressed differently, we must identify which hits belong to the same particle.
 
 Unlike traditional tracking algorithms that are built around [Kalman filters][kalman], this project uses [graph neural networks][gnn-wiki] for significant increases in speed.
 
@@ -22,8 +22,7 @@ Unlike traditional tracking algorithms that are built around [Kalman filters][ka
 
   A conceptually simple way to turn tracking into a machine learning task is to create a fully connected graph of all points and then train an edge classifier to reject any edge that doesn't connect points that belong to the same particle.
   In this way, only the individual trajectories remain as components of the initial fully connected graph.
-  However, this strategy does not lead to perfect results in practice, so it is combined with other steps.
-  Most notably, we explore the idea of *object condensation*, where a GNN maps all hits to a latent space, learning to place hits from the same track close to each other, such that trivial clustering can recover the hits belonging to the same tracks.
+  In this project, we instead explore the idea of *object condensation*, where a GNN maps all hits to a latent space, learning to place hits from the same track close to each other, such that trivial clustering can recover the hits belonging to the same tracks.
 
 </details>
 

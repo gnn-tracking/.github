@@ -10,7 +10,7 @@ This task is different from many other problems that involve trajectories:
 
 * there are several thousand particles that need to be tracked at once,
 * there is no time information (the particles travel too fast),
-* we do not observe a continuous trajectory but instead only around five points ("hits") along the way in different detector layers.
+* we do not observe a continuous trajectory but instead only 5-15 points ("hits") along the way in different detector layers.
 
 The task can be described as a combinatorically very challenging "connect-the-dots" problem, essentially turning a cloud of points (hits) in 3D space into a set of O(1000) trajectories.
 Expressed differently, we must identify which hits belong to the same particle.

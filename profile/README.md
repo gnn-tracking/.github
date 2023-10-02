@@ -29,6 +29,7 @@ Unlike traditional tracking algorithms that are built around [Kalman filters][ka
 <details>
   <summary>Further reading (click me)</summary>
 
+  * [arXiv preprint of early version of the pipeline](https://arxiv.org/abs/2309.16754)
   * [recording of overview talk that introduces the object condensation idea](https://www.youtube.com/watch?v=HBgpOh_mW0o)
   * [tutorial notebooks][tutorials]
   * [main code][main]
@@ -40,6 +41,6 @@ Unlike traditional tracking algorithms that are built around [Kalman filters][ka
 [tracking-wiki]: https://en.wikipedia.org/wiki/Tracking_(particle_physics)
 [tutorials]: https://github.com/gnn-tracking/tutorials
 [main]: https://github.com/gnn-tracking/gnn_tracking
-[hpo]: https://github.com/gnn-tracking/hyperparameter_optimization
+[hpo]: https://github.com/gnn-tracking/hyperparameter_optimization2
 [kalman]: https://en.wikipedia.org/wiki/Kalman_filter
 [gnn-wiki]: https://en.wikipedia.org/wiki/Graph_neural_network

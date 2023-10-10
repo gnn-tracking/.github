@@ -29,7 +29,9 @@ Unlike traditional tracking algorithms that are built around [Kalman filters][ka
 <details>
   <summary>Further reading (click me)</summary>
 
-  * [arXiv preprint of early version of the pipeline](https://arxiv.org/abs/2309.16754)
+  * [CTD 23 talk (pipeline 1.1 and 2.0)](https://indico.cern.ch/event/1252748/contributions/5521458/)
+  * [arXiv preprint of early version of the pipeline (pipeline 1.1)](https://arxiv.org/abs/2309.16754)
+  * [CHEP 23 talk (pipeline 1.0)](https://indico.jlab.org/event/459/contributions/11741/)
   * [recording of overview talk that introduces the object condensation idea](https://www.youtube.com/watch?v=HBgpOh_mW0o)
   * [tutorial notebooks][tutorials]
   * [main code][main]

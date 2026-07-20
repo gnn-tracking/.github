@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0  # Use the ref you want to point at
+    rev: v6.0.0  # Use the ref you want to point at
     hooks:
     -   id: trailing-whitespace
     -   id: check-added-large-files
@@ -8,7 +8,7 @@ repos:
     -   id: check-merge-conflict
     -   id: check-yaml
 -   repo: https://github.com/codespell-project/codespell
-    rev: 'v2.3.0'
+    rev: 'v2.4.3'
     hooks:
     -   id: codespell
         args: ["-I", "codespell.txt"]
